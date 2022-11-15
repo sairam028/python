@@ -1,0 +1,8 @@
+a=int(input())
+b=int((input()))
+def min(a, b):
+    if a <= b:
+        return a
+    else:
+        return b
+print(min(a, b))
